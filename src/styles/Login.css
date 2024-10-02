@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(to left, #333333, #ffffff);
+}
+
+.Class-Pai {
+    display: flex;
+    justify-content: center;
+    padding: 15vh;
+}
+
+.div-white {
+    background-color: #ffffff;
+    width: 130vh;
+    height: 70vh;
+    border-radius: 10vh;
+}
+
+.div-black {
+    background-color: #333333;
+    width: 648px;
+    height: 70vh;
+    border-radius: 10vh;
+    margin-left: 65vh;
+    margin-top: -544px;
+}
+
+.bem-vindo {
+    position: relative;
+    font-size: 4vh;
+    color: #ffffff;
+    text-align: center;
+    top: 22vh;
+}
+
+.reg {
+    position: relative;
+    font-size: 3vh;
+    opacity: 50%;
+    color: #ffffff;
+    text-align: center;
+    top: 23vh;
+}
+
+.button-registrar {
+    height: 7vh;
+    width: 28vh;
+    background-color: #333333;
+    font-size: 3vh;
+    border-radius: 20px;
+    margin-top: 2vh;
+    margin-left: 180px;
+    border-width: 4px;
+    color: #ffffff;
+}
+
+.rest {
+    display: flex;
+    
+}
+
+.button-registrar:hover {
+    background-color: black;
+}
+
+
+.Entrar {
+    font-size: 6vh;
+    margin-top: 12vh;
+    margin-left: 24vh;
+}
+
+.ent {
+    margin-top: 2vh;
+    margin-left: 18vh;
+    opacity: 50%;
+}
+
+form {
+    margin-top: 4vh;
+    margin-left: 10vh;
+}
+
+input {
+    width: 46vh;
+    height: 5vh;
+    border-radius: 1vh;
+    background-color: #cfcece;
+    border-color: #cfcece;
+}
+
+.esqueceu {
+    margin-top: 12px;
+    margin-left: 21vh;
+    opacity: 80%;
+}
+
+.button-entrar {
+    height: 7vh;
+    width: 28vh;
+    background-color: #333333;
+    font-size: 3vh;
+    border-radius: 20px;
+    margin-top: 2vh;
+    margin-left: 180px;
+    border-width: 4px;
+    color: #ffffff;
+}
+
+.button-entrar:hover {
+    background-color: white;
+    color: black;
+}
+
+.input1,
+.input2 {
+    font-size: 20px;
+    text-align: center;
+}
